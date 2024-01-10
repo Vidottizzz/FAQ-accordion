@@ -54,6 +54,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+header {
+    margin-bottom: 2.5rem;
+}
 #top-image {
     background-image: url(/assets/images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
@@ -65,17 +68,35 @@ table {
 #card {
     margin: -6rem auto;
     background-color: white;
-    width:26rem;
+    width:19rem;
     height: 40rem;
     z-index: 1;
     border-radius: 1rem;
+    padding: 2.5rem;
 }
 .attribution {
     margin-top: 8rem;
 }
-
-
-
+#purple-star {
+width: 1.8rem;
+}
+.flex {
+    display:flex;
+    font-weight: 800;
+}
+.faq {
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}
+.p-size {
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    width: 14rem;
+    line-height: 1.2rem;
+}
+#minus-img {
+    width: 2.1rem;
+}
 /* ## Typography
 
 ### Body Copy
