@@ -57,6 +57,21 @@ table {
 header {
     margin-bottom: 2.5rem;
 }
+hr {
+
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #e9e6e6; 
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+hr:nth-child(1) {
+    margin-top: 1.2rem;
+    margin-bottom:3rem;
+}
 #top-image {
     background-image: url(/assets/images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
@@ -69,10 +84,11 @@ header {
     margin: -6rem auto;
     background-color: white;
     width:19rem;
-    height: 40rem;
+    height: 33rem;
     z-index: 1;
     border-radius: 1rem;
     padding: 2.5rem;
+    position: relative;
 }
 .attribution {
     margin-top: 8rem;
@@ -96,6 +112,29 @@ width: 1.8rem;
 }
 #minus-img {
     width: 2.1rem;
+}
+main p:nth-child(2) {
+    margin-top: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--Grayishpurple);
+    font-size: 0.98rem
+}
+
+footer #question2 p:nth-child(1){
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+    
+}
+footer div .first-plus-img{
+    width: 2.2rem;
+}
+#first-plus {
+    position: absolute;
+    right: 2.45rem;
+    bottom: 13.6rem;
+}
+hr:nth-child(2){
+    margin-bottom: 1.2rem;
 }
 /* ## Typography
 
