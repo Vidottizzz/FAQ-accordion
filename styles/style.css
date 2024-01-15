@@ -89,6 +89,7 @@ hr:nth-child(1) {
     border-radius: 1rem;
     padding: 2.5rem;
     position: relative;
+
 }
 .attribution {
     margin-top: 8rem;
@@ -113,20 +114,75 @@ width: 1.8rem;
 #minus-img {
     width: 2.1rem;
 }
+#minus-img:hover {
+    cursor: pointer;
+}
 main p:nth-child(2) {
     margin-top: 1.4rem;
     line-height: 1.4rem;
     color: var(--Grayishpurple);
     font-size: 0.98rem
 }
+footer p:nth-child(2) {
+    margin-top: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--Grayishpurple);
+    font-size: 0.98rem
+}
+#hidden-text3 {
+    margin-top: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--Grayishpurple);
+    font-size: 0.98rem
+}
+#hidden-text4 {
+    margin-top: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--Grayishpurple);
+    font-size: 0.98rem
+}
+
 
 footer #question2 p:nth-child(1){
     font-size: 1.05rem;
-    line-height: 1.4rem;
+    line-height: 1.15rem;
     
 }
+/* esconder */
+.hidden {
+    display: none;
+}
+
+footer img:hover {
+cursor: pointer;
+}
+#question1{
+    position: relative;
+}
+
 footer div .first-plus-img{
     width: 2.2rem;
+    position: absolute;
+    top: -0.8rem;
+    left: 16.9rem;
+}
+#question2{
+    position: relative;
+}
+footer div .second-plus-img{
+    width: 2.2rem;
+    position: absolute;
+    top: 0rem;
+    left: 16.9rem;
+}
+#question3{
+    position: relative;
+}
+footer div .third-plus-img{
+    width: 2.2rem;
+    position: absolute;
+    top: -1rem;
+    left: 16.92rem;
 }
 #first-plus {
     position: absolute;
@@ -145,4 +201,4 @@ hr:nth-child(2){
 ### Font
 
 - Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- Weights: 400, 600, 700 */ 
+- Weights: 400, 600, 700 */
