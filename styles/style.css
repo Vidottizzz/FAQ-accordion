@@ -81,10 +81,10 @@ hr:nth-child(1) {
     z-index: 0;
 }
 #card {
-    margin: -6rem auto;
+    margin: -9rem auto;
     background-color: white;
     width:19rem;
-    height: 33rem;
+    height: 34rem;
     z-index: 1;
     border-radius: 1rem;
     padding: 2.5rem;
@@ -111,10 +111,30 @@ width: 1.8rem;
     width: 14rem;
     line-height: 1.2rem;
 }
-#minus-img {
-    width: 2.1rem;
+/* PRIMEIRO SIMBOLO MAIS */
+#plus-img {
+    width: 2.2rem;
 }
-#minus-img:hover {
+/* PRIMEIRO SIMBOLO MENOS */
+#menos-imagem {
+    width: 2.2rem;
+}
+#menos-imagem2 {
+    width: 2.2rem;
+   position: absolute;
+    right: 0rem;
+    top: -0.5rem;
+}
+#menos-imagem3 {
+    width: 2.2rem;
+    position: absolute;
+     right: 0rem;
+     top: 0rem;
+} 
+#plus-img:hover {
+    cursor: pointer;
+}
+#menos-imagem:hover {
     cursor: pointer;
 }
 main p:nth-child(2) {

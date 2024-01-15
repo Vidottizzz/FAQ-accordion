@@ -25,7 +25,7 @@
     </header>
     <main>
       <div class="flex">
-        <p class="p-size"> What is Frontend Mentor, and how will it help me?</p> <img id="minus-img" onclick="showhide()" src="/assets/images/icon-minus.svg" alt="">
+        <p class="p-size"> What is Frontend Mentor, and how will it help me?</p> <img id="plus-img" onclick="showhide()" src="/assets/images/icon-plus.svg" alt=""><img onclick="hideshow()" id="menos-imagem" class="hidden" src="/assets/images/icon-minus.svg" alt="">
       </div>
       <p  id="hidden-text1" class="hidden">
          Frontend Mentor offers realistic coding challenges to help developers improve their 
@@ -34,9 +34,10 @@
        </p>
        <hr>
     </main>
+    
     <footer>
       <div class="flex" id="question1">
-        <p class="p-size">  Is Frontend Mentor free?</p> <img onclick="showhide2()" id="first-plus" class="first-plus-img" src="/assets/images/icon-plus.svg" alt="">
+        <p class="p-size">  Is Frontend Mentor free?</p> <img id="plus-img2" onclick="showhide2()" class="first-plus-img" src="/assets/images/icon-plus.svg" alt=""><img onclick="hideshow2()" class="hidden"id="menos-imagem2" src="/assets/images/icon-minus.svg" alt="">
       </div>
       <p  id="hidden-text2" class="hidden">
         Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
@@ -44,7 +45,7 @@
       <hr>
 
       <div id="question2" class="flex">
-        <p class="p-size">Can I use Frontend Mentor projects in my portfolio?</p> <img onclick="showhide3()" class="second-plus-img" src="/assets/images/icon-plus.svg" alt="">
+        <p class="p-size">Can I use Frontend Mentor projects in my portfolio?</p> <img id="plus-img3" onclick="showhide3()" class="second-plus-img" src="/assets/images/icon-plus.svg" alt=""><img class="hidden"  onclick="hideshow3()" id="menos-imagem3" src="/assets/images/icon-minus.svg" alt="">
       </div>
       <p id="hidden-text3" class="hidden">
         Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
@@ -53,7 +54,7 @@
       <hr>
 
       <div class="flex" id="question3">
-        <p class="p-size"> How can I get help if I'm stuck on a challenge?</p> <img onclick="showhide4()"   class="third-plus-img" src="/assets/images/icon-plus.svg" alt="">
+        <p class="p-size"> How can I get help if I'm stuck on a challenge?</p> <img onclick="showhide4()"  class="third-plus-img" src="/assets/images/icon-plus.svg" alt="">
       </div>
       <p id="hidden-text4" class="hidden">
         The best place to get help is inside Frontend Mentor's Discord community. There's a help 
