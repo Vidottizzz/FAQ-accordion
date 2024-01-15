@@ -6,7 +6,10 @@ const plusimg2 = document.getElementById('plus-img2');
 const imagemMenos2 = document.getElementById('menos-imagem2')
 
 const plusimg3 = document.getElementById('plus-img3');
-const imagemMenos3 = document.getElementById('menos-imagem2')
+const imagemMenos3 = document.getElementById('menos-imagem3')
+
+const plusimg4 = document.getElementById('plus-imagem4');
+const imagemMenos4 = document.getElementById('menos-imagem4')
 
 function showhide() {
     const hiddentext1 = document.querySelector("#hidden-text1");
@@ -48,3 +51,23 @@ function hideshow3() {
     plusimg3.classList.remove('hidden');
     imagemMenos3.classList.add('hidden');
 }
+
+/////////////////////////////////////////////////////
+
+
+
+
+function showhide4() {
+    const hiddentext4 = document.querySelector("#hidden-text4");
+    hiddentext4.classList.toggle('hidden');
+    plusimg4.classList.add('hidden');
+    imagemMenos4.classList.remove('hidden');
+}
+function hideshow4() {
+    const hiddentext4 = document.querySelector("#hidden-text4");
+   hiddentext4.classList.add('hidden')
+    plusimg4.classList.remove('hidden');
+    imagemMenos4.classList.add('hidden');
+}
+
+
