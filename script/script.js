@@ -71,3 +71,8 @@ function hideshow4() {
 }
 
 
+function onlyOnce() {
+    if (plusimg.contains('hidden') || plusimg2.contains('hidden') || plusimg3.contains('hidden') || plusimg4.contains('hidden')) {
+        
+    }
+}
